@@ -80,3 +80,22 @@ a.change-profile-pic {
     height: 100px;
     margin-top: 15px;
 }
+
+.right-box3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+p.top-box {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn_like {
+    width: 60px;
+    height: 25px;
+}
