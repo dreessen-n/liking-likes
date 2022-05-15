@@ -45,11 +45,26 @@
 }
 
 .left-box1 {
-    flex: 1 0 auto;
-    height: 100px;
-    /* remove height once content is added to video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
     border: 2px solid black;
     margin-top: 15px;
+}
+
+.img_profile-pic {
+    border-radius: 50%;
+    width: 70px;
+    margin-top: 20px;
+}
+
+a.change-profile-pic {
+    margin-top: 10px;
+}
+
+.profile-name {
+    margin-top: 10px;
 }
 
 .right {
