@@ -69,20 +69,21 @@ a.change-profile-pic {
 
 .right {
     display: flex;
-    flex: 1 0 auto;
     flex-direction: column;
+    flex: 1 0 auto;
     margin-left: 20px;
 }
 
 .right-box2 {
     flex: 1 0 auto;
     border: 2px solid black;
-    height: 100px;
+    width: 400px;
     margin-top: 15px;
 }
 
 .right-box3 {
     display: flex;
+    flex: 1 0 auto;
     justify-content: space-around;
     padding: 10px;
     align-items: center;
@@ -95,7 +96,17 @@ p.top-box {
     justify-content: end;
 }
 
+p.text-info {
+    flex: 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
 .btn_like {
     width: 60px;
     height: 25px;
+    background-color: gold;
+    box-shadow: 4px 4px black;
 }
