@@ -5,3 +5,63 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.container{
+    width: 600px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.nav-container {
+    display: flex;
+    flex: 1 0 auto;
+    height: 40px; 
+    padding-left: 20px;
+    /* remove height once nav is placed in container */
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.feedBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+/* left Main */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 150px;
+}
+
+.left-box1 {
+    flex: 1 0 auto;
+    height: 100px;
+    /* remove height once content is added to video */
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.right {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.right-box2 {
+    flex: 1 0 auto;
+    border: 2px solid black;
+    height: 100px;
+    margin-top: 15px;
+}
