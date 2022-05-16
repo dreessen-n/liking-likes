@@ -9,6 +9,8 @@ function addLike(element) {
     z.innerText = num;
 }
 
+// Change avatar image 
+
 function addAvatar () {
     var x = document.querySelector('.img_profile-pic');
     var y = x.id;

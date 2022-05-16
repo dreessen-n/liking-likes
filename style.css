@@ -17,7 +17,6 @@
     flex: 1 0 auto;
     height: 40px; 
     padding-left: 20px;
-    /* remove height once nav is placed in container */
     background-color: black;
     color: white;
     align-items: center;
@@ -35,7 +34,7 @@
     flex: 1;
 }
 
-/* left Main */
+/* Left Main */
 
 .left {
     display: flex;
@@ -67,6 +66,8 @@ a.change-profile-pic {
 .profile-name {
     margin-top: 10px;
 }
+
+/* Right main  */
 
 .right {
     display: flex;
