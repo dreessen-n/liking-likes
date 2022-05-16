@@ -1,13 +1,9 @@
 // Increase likes
 
 function addLike(element) {
-    // console.log(element);
     var x = element.id;
-    // console.log(x);
     var y = 'label_' + x;
-    // console.log(y);
     var z = document.querySelector('#' + y);
-    // console.log(z);
     var num = z.innerText;
     num++;
     z.innerText = num;
@@ -15,6 +11,12 @@ function addLike(element) {
 
 function addAvatar () {
     var x = document.querySelector('.img_profile-pic');
-    console.log(x);
-    x.src = "./assets/toshiro.png";
+    var y = x.id;
+    if (y == 'img_gen-user') {
+        x.src = "./assets/toshiro.png";
+        x.id = "img_profile-pic"
+    } else {
+        x.src = "./assets/user-circle.png"
+        x.id = "img_gen-user"
+    }
 }
